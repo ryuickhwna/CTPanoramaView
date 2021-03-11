@@ -6,7 +6,10 @@
 //  Copyright © 2016 Home. All rights reserved.
 //
 
+#if canImport(UIKit)
 import UIKit
+#endif
+
 import SceneKit
 import CoreMotion
 import ImageIO
